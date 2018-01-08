@@ -1,0 +1,130 @@
+﻿body {
+   
+    background-color:white;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    font:0.8em Arial,Helvetica,sans-serif;
+            background-image:url("s63_night.png");
+            color:#000;
+}
+#header {
+    background-image:url("benzz.jpeg");
+    background-position:center;
+    background-position-x:center
+
+}
+div.hide{
+    display:inline;
+    height:0px;
+    left:-1000px;
+    margin:0px;
+    padding:0px;
+    position:absolute;
+    top:-1000px;
+    visibility:hidden;
+    width:0px;
+}
+::selection{background:red}
+::-moz-selection{background:red}
+
+a.button {
+    font-weight:700;
+    color:white;
+    text-decoration:none;
+    padding: .5em 2em ;
+    outline:none;
+    border-width:2px 0;
+    border-style:solid none;
+    border-color:dodgerblue white white;
+    border-radius:6px;
+    background: linear-gradient(dodgerblue, white) white;
+    transition:0.2s;
+}
+a.button:hover{background:linear-gradient(white,dodgerblue)blue;}
+a.button:active{background: linear-gradient(white,dodgerblue)blue;}
+
+a.button6 {
+  position: relative;
+  display: inline-block;
+  width: 10em;
+  height: 2.5em;
+  line-height: 2.5em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px dodgerblue;
+  color: #fff;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #63a9ee;
+  background: linear-gradient(dodgerblue, #63a9ee 48%, #63a9ee 52%, dodgerblue);
+}
+    a.button6:active {
+        top: .1em;
+        left: .1em;
+        box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+    }
+    a.button:hover{background:linear-gradient(white,dodgerblue)blue;}
+
+    a.button7 {
+  position: relative;
+  display: inline-block;
+  width: 10em;
+  height: 2.5em;
+  line-height: 2.5em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #777;
+  color: #fff;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .2em .2em .2em dodgerblue;
+  background: linear-gradient(blue, dodgerblue 48%, dodgerblue 52%, white);
+}
+a.button7:active {
+  top: .1em;
+  left: .1em;
+  right: .1em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+a.button10 {
+  position: relative;
+  z-index: 1;
+  color: black;
+  font-size: 135%;
+  font-weight: 700;
+  text-decoration: none;
+  padding: .25em .5em;
+}
+a.button10:after {
+  content: "Buy now";  /* здесь 7 букв */
+  position: absolute;
+  z-index: -1;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  /* где 7*(1em*90/135), где 7 - это 7 букв (Buy now), 90 - это font-size after, а 135 - это font-size родителя */
+  width: calc(100% + 7*(1em*90/135) + 2px*2*2);  
+  text-align: right;
+  color: #fff;
+  font-size: 90%;
+  padding: .25em .5em;
+  border-radius: 5px;
+  border: 2px solid #c61e40;
+  -webkit-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+  background: linear-gradient(#d4536d, #c61e40) no-repeat 100% 0;
+  background-size: calc(7*(1em*90/135) + .5em) 100%;
+  box-shadow: inset calc(-7*(1em*90/135) - .5em) 0 rgba(255,255,255,0);
+  transition: .3s;
+}
+a.button10:hover:after {
+  box-shadow: inset calc(-6*(1em*90/135) - .5em) 0 rgba(255,255,255,.2);
+}
+a.button10:active:after {
+  background-image: linear-gradient(#c61e40, #d4536d);
+}

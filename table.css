@@ -1,0 +1,31 @@
+﻿body {
+
+}
+
+table{
+    table-layout:auto;
+    overflow:auto;
+    height:79%;
+    width:67%;
+    caption-side:top;
+    empty-cells:show;
+        
+}
+th{
+    height:80%;
+}
+td{
+padding: 5px 5px 5px 5px;
+border-spacing: 2px 2px 2px 2px;
+outline-width: 2px 2px 2px 2px;
+outline-color:#000000;
+outline-style: groove;
+
+}
+td,th{
+    text-align:center;
+       
+}
+td,th{
+    vertical-align:bottom;
+}

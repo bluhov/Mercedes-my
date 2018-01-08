@@ -1,0 +1,173 @@
+﻿body {
+     background-color:white;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    font:Arial,Helvetica,sans-serif;
+   
+            
+            color:#000;
+}
+table{
+    table-layout:auto;
+    border: 1px solid black;
+    border-spacing:1px;
+    border-collapse:collapse;
+    width:800px;
+    table-layout:fixed;
+    overflow:auto;
+   border-left:5px;
+
+}
+
+
+td{
+   border: 1px solid  black;
+   padding:4px;
+
+}
+ul.a {list-style-position:inside;}
+ul.b {list-style-position:outside;
+      list-style:circle;
+      list-style-type:disc;
+      font-size:20px;
+      padding:2px;
+      padding-left:900px
+}
+p{
+   color:black;
+   font-size:20px
+}
+p.uppercase {
+    text-transform: uppercase;
+}
+h4 {
+    font-size:14px;
+    font-family:Arial;
+}
+p.test1 {
+    white-space:nowrap; 
+    width: 410px; 
+    border: 0px solid #000000;
+    overflow:visible;
+    text-overflow:clip;
+}
+    
+
+a:link{text-decoration:none; color:white}
+a:visited{text-decoration:dotted;color:white}
+a:active{text-decoration:solid;color:white}
+a:focus{text-decoration:none;color:white}
+a:hover{text-decoration:none;color:white}
+
+ul li{position:relative;}
+li ul{
+    position:absolute;
+    left:180px;
+    top:0;
+    display:none;
+}
+ul li a{
+    display:block;
+    text-decoration:none;
+    color:blue;
+    background:;
+    padding:7px;
+    border:none;
+    border-bottom:0;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    width:150px;
+    border-bottom:none;
+}
+li:hover ul{display:block;}
+a{
+    text-size-adjust:100%
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2px;
+    
+}
+   a.button7 {
+  position: relative;
+  display: inline-block;
+  width: 10em;
+  height: 2.5em;
+  line-height: 2.5em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #777;
+  color: #fff;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .2em .2em .2em dodgerblue;
+  background: linear-gradient(blue, dodgerblue 48%, dodgerblue 52%, white);
+}
+a.button7:active {
+  top: .1em;
+  left: .1em;
+  right: .1em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+#header{background-image:url("benzz.jpeg")}
+        #container{width:auto;}
+        #header{font-size:2.2em;text-align:center;padding:5px;}
+        #nav,#aside{width:110px;float:left;padding:5px;}
+        #aside{color:#000;float:right}
+        #content{ margin:0 210px;padding:20px;}
+        h2{margin:0 0 1em;}
+        #footer{margin-left:3px;margin-bottom:3px;margin-right:3px;margin-top:110px;clear:both;padding-bottom:3px;color:#000000;}
+        h1{text-shadow:dodgerblue 0.7mm 0.7mm 1px;font-size:25pt;text-align:center;color:blue;font-size:xx-large;}
+        a.button10 {
+  position: relative;
+  z-index: 1;
+  color: black;
+  font-size: 135%;
+  font-weight: 700;
+  text-decoration: none;
+  padding: .25em .5em;
+}
+a.button10:after {
+  content: "Buy now";  /* здесь 7 букв */
+  position: absolute;
+  z-index: -1;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  /* где 7*(1em*90/135), где 7 - это 7 букв (Buy now), 90 - это font-size after, а 135 - это font-size родителя */
+  width: calc(100% + 6*(1em*90/135) + 2px*2*2);  
+  text-align: right;
+  color: #fff;
+  font-size: 90%;
+  padding: .25em .5em;
+  border-radius: 5px;
+  border: 2px solid #c61e40;
+  -webkit-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+  background: linear-gradient(#d4536d, #c61e40) no-repeat 100% 0;
+  background-size: calc(7*(1em*90/135) + .5em) 100%;
+  box-shadow: inset calc(-7*(1em*90/135) - .5em) 0 rgba(255,255,255,0);
+  transition: .3s;
+}
+a.button10:hover:after {
+  box-shadow: inset calc(-6*(1em*90/135) - .5em) 0 rgba(255,255,255,.2);
+}
+a.button10:active:after {
+  background-image: linear-gradient(#c61e40, #d4536d);
+}
+.newspaper {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+}
+p{
+    padding-left:50px
+}

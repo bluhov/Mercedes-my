@@ -1,0 +1,4 @@
+[0407/111204.222:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files\settings.dat: Достъпът е отказан. (0x5)
+[0407/111204.459:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Каналът е затворен. (0x6D)
+[0407/111204.462:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files\settings.dat: Достъпът е отказан. (0x5)
+[0407/111206.365:ERROR:crashpad_client_win.cc(660)] crash server failed to launch, no dump captured

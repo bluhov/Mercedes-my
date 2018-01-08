@@ -1,0 +1,88 @@
+﻿body {
+     background-color:white;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    font:Arial,Helvetica,sans-serif;
+   
+            
+            color:#000;
+}
+
+a:link{text-decoration:none; color:white}
+a:visited{text-decoration:dotted;color:white}
+a:active{text-decoration:solid;color:white}
+a:focus{text-decoration:none;color:white}
+a:hover{text-decoration:none;color:white}
+
+ul li{position:relative;}
+li ul{
+    position:absolute;
+    left:180px;
+    top:0;
+    display:none;
+}
+ul li a{
+    display:block;
+    text-decoration:none;
+    color:blue;
+    background:;
+    padding:7px;
+    border:none;
+    border-bottom:0;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    width:150px;
+    border-bottom:none;
+}
+li:hover ul{display:block;}
+a{
+    text-size-adjust:100%
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2px;
+    
+}
+   a.button7 {
+  position: relative;
+  display: inline-block;
+  width: 10em;
+  height: 2.5em;
+  line-height: 2.5em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #777;
+  color: #fff;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .2em .2em .2em dodgerblue;
+  background: linear-gradient(blue, dodgerblue 48%, dodgerblue 52%, white);
+}
+a.button7:active {
+  top: .1em;
+  left: .1em;
+  right: .1em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+#header{background-image:url("benzz.jpeg")}
+        #container{width:auto;}
+        #header{font-size:2.2em;text-align:center;padding:5px;}
+        #nav,#aside{width:110px;float:left;padding:5px;}
+        #aside{color:#000;float:right}
+        #content{ margin:0 210px;padding:20px;}
+        h2{margin:0 0 1em;}
+        #footer{margin-left:3px;margin-bottom:3px;margin-right:3px;margin-top:110px;clear:both;padding-bottom:3px;color:#000000;}
+        h1{text-shadow:dodgerblue 0.7mm 0.7mm 1px;font-size:25pt;text-align:center;color:blue;font-size:xx-large;}
+        table{
+            border:dotted;
+        }
+        td{
+            height:50px
+        }
